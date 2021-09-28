@@ -1,0 +1,12 @@
+{
+    "name": "auto key down",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "...",
+    "action": {
+        "title": "key donw!",
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["tabs", "activeTab", "scripting"]
+}

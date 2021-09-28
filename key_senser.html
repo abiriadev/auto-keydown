@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+
+        <style>
+            :root {
+                font-size: 3em;
+            }
+        </style>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', domEv => {
+                document.addEventListener('keydown', ev => {
+                    document.getElementById('out').innerHTML += `${ev.key}<br>`
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <output id="out"></output>
+    </body>
+</html>
